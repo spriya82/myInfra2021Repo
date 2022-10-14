@@ -45,7 +45,7 @@ resource "aws_security_group" "my_security_group" {
 
 resource "aws_instance" "myFirstInstance" {
   ami           = var.ami_id
-  key_name = var.key_name
+  key_name = var.myownec2key
   instance_type = var.instance_type
   tags= {
     Name = var.tag_name
