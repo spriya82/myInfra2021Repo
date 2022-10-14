@@ -4,5 +4,6 @@ terraform {
     key = "main"
     region = "us-east-2"
     dynamodb_table = "priyatftable"
+    key ="lockid"
   }
 }
